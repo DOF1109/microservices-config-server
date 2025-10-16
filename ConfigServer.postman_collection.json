@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "a828ca76-7fdb-40e7-9ef1-7c242d1e6361",
+		"name": "ConfigServer - TodoCode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27946130"
+	},
+	"item": [
+		{
+			"name": "localhost:8081/cities-service/default",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/cities-service/default",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cities-service",
+						"default"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
